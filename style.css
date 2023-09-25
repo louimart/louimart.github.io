@@ -1,1 +1,39 @@
+body {
+  Background-color: #F6F5F4;
+  color: #0C1618;
+  font-family: Calibri, sans-serif;
+  margin: 10% 10% 20% 10%;
+  line-height: 1.5em;
+  box-sizing: border-box;
+}
 
+.exp-header {
+  text-align: left;
+  text-transform: uppercase;
+  border-top: 1px solid #0C1618;
+  background-color: rgba(0,0,0,0)
+}
+
+h4 {
+  margin-bottom: -10px
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -10px;
+  margin-bottom: 5px
+}
+ul.dashed > li:before {
+  content: "- ";
+  Text-indent: 0;
+}
+
+.containter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
