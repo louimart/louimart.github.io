@@ -2,16 +2,24 @@ body {
   Background-color: #F6F5F4;
   color: #0C1618;
   font-family: Calibri, sans-serif;
-  margin: 10% 10% 20% 10%;
+  margin: 5% 5% 10% 5%;
   line-height: 1.5em;
   box-sizing: border-box;
+}
+
+.profile-image {
+  border: 10px solid white;
+  padding: 50px;
+}
+
+h1 span {
+  font-weight: 100;
 }
 
 .exp-header {
   text-align: left;
   text-transform: uppercase;
   border-top: 1px solid #0C1618;
-  background-color: rgba(0,0,0,0)
 }
 
 .exp-subheader {
@@ -49,13 +57,13 @@ ul.dashed > li:before {
   justify-content: space-between;
 }
 
-.container .box .dream{
+.container .box .gallery{
   display: flex;
   flex-direction: column;
 }
 
-.container .box .dream img{
-  width: 100%;
+.container .box .gallery1 img{
+  width: 25%;
   margin-bottom: 20px;
   border-radius: 15px;
 }
